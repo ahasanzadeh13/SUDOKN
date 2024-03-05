@@ -1,0 +1,1396 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ahasa/ontologies/2024/1/untitled-ontology-78/"
+     xml:base="http://www.semanticweb.org/ahasa/ontologies/2024/1/untitled-ontology-78/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:AnnotationVocabulary="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
+    <owl:Ontology rdf:about="http://asu.edu/semantics/SUDOKN">
+        <owl:versionIRI rdf:resource="http://asu.edu/semantics/SUDOKN1/"/>
+        <owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/202302/supplychain/SupplyChain/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/replacedBy -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/replacedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://SUDOKN1.0/AS-9003 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AS-9003">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ASCompliant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AS-9100 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AS-9100">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ASCompliant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AS-9102 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AS-9102">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ASCompliant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ASCompliant -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ASCompliant">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ASME -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ASME">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AccommodationAndFoodServices -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AccommodationAndFoodServices">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AdditivesProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AdditivesProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Address -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Address">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/PhysicalLocationIdentifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AdministrativeAndSupportAsndWasteServices -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AdministrativeAndSupportAsndWasteServices">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AerospaceIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AerospaceIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AgricultureForestryFishingAndHunting -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AgricultureForestryFishingAndHunting">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AgricultureIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AgricultureIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AluminumProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AluminumProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ArtsEnterntainmentAndRecreation -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ArtsEnterntainmentAndRecreation">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AssemblyCapibility -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AssemblyCapibility">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/BABACompliant -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BABACompliant">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/BeverageIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BeverageIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/FoodIndustry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/BrandName -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BrandName">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/BrassProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BrassProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/BronzeProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BronzeProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CarbonProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CarbonProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CastingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CastingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CeramicProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CeramicProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Certificate -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Certificate">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/QualityCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ChemicalProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ChemicalProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ChemicalsProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ChemicalsProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CityOfAddress -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CityOfAddress">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Classifier -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Classifier">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CoatingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CoatingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CommunicationAndElectronicPowerUtilitiesIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CommunicationAndElectronicPowerUtilitiesIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/UtilitiesIndustry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CommunicationIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CommunicationIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CompositeProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CompositeProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ComputerIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ComputerIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ElectronicProductIndustry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Construction -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Construction">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ConstructionIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ConstructionIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CopperProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CopperProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CountryOfAddress -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CountryOfAddress">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/CrochetCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/CrochetCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/TextileProcessCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/DisabledVeteranOwned -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/DisabledVeteranOwned">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/VeteranOwned"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/DrawingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/DrawingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/DyeingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/DyeingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/EducationIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/EducationIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/EducationalServices -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/EducationalServices">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ElectricVehicleIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ElectricVehicleIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/VehicleIndustry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ElectronicProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ElectronicProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ElectronicProductIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ElectronicProductIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/EmailAddress -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/EmailAddress">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/VitualLocationIdentifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ExtrudingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ExtrudingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FDA-GMP -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FDA-GMP">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/FDACompliant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FDA-PMA -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FDA-PMA">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/FDACompliant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FDACompliant -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FDACompliant">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FabricatingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FabricatingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FiberProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FiberProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FilingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FilingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FinanceAndInsurance -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FinanceAndInsurance">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FinishingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FinishingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FoamProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FoamProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FoodIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FoodIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ForgingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ForgingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FormingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FormingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/FurnitureIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/FurnitureIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/GWO -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/GWO">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/GlassProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/GlassProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/GovernmentIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/GovernmentIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/GrindingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/GrindingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/HAACP -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/HAACP">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/HUBZone -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/HUBZone">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/HealthCareAndSocialAssistance -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/HealthCareAndSocialAssistance">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/HealthCareServices -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/HealthCareServices">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/HeatTreatingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/HeatTreatingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/HoningCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/HoningCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-13485 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-13485">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-14000 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-14000">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-14001 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-14001">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-17265 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-17265">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-27001 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-27001">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-9000 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-9000">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISO-9001 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISO-9001">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISOCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISOCertificate -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISOCertificate">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISTS -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISTS">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ISTS-16949 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ISTS-16949">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ISTS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ITARCompliant -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ITARCompliant">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Information -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Information">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/IronProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/IronProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/JoiningCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/JoiningCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/KnittingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/KnittingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/TextileProcessCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/KosherApproved -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/KosherApproved">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MachinaryEquipmentIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MachinaryEquipmentIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MachiningCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MachiningCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MagnesiumAlloyProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MagnesiumAlloyProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ManMadeFiberProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ManMadeFiberProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/FiberProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ManagementOfCompaniesAndEnterprise -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ManagementOfCompaniesAndEnterprise">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Manufacturing -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ManufacturingProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ManufacturingProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ProcessCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MaterialProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MaterialProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ProcessCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MetalProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MetalProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MetalProductsIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MetalProductsIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Mining -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Mining">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MiningIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MiningIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MinorityOwned -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MinorityOwned">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MoldMakingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MoldMakingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MoldingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MoldingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/NADCAP -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/NADCAP">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/NAICSClassifier -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/NAICSClassifier">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Classifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/NIST-800-171 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/NIST-800-171">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NISTCertificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/NISTCertificate -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/NISTCertificate">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/NativeAmericanOwned -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/NativeAmericanOwned">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/NaturalFiberProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/NaturalFiberProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/FiberProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/OrganizationName -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/OrganizationName">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/OrganizationYearOfEstablishment -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/OrganizationYearOfEstablishment">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/OwnershipStatusClassifier -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/OwnershipStatusClassifier">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Classifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PackingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PackingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PaperIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PaperIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PlasticAndRubberIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PlasticAndRubberIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PlasticProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PlasticProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PressingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PressingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PrintingAndInformationIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PrintingAndInformationIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PrintingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PrintingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ProcessCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ProcessCapability">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PublicAdministration -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PublicAdministration">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/QS -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/QS">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/QS-9000 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/QS-9000">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/QS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/QualityCertificate -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/QualityCertificate">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/QualityManagementCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/QualityManagementCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ProcessCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/RealEstateRentalAndLeasing -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/RealEstateRentalAndLeasing">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/RecyclingIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/RecyclingIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Restaurants -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Restaurants">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/FoodIndustry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/RetailIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/RetailIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/RetailTrade -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/RetailTrade">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/RollingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/RollingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/RubberProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/RubberProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/SheeringCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/SheeringCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/SiliconeProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/SiliconeProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/SmallDisadvantagedBusiness -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/SmallDisadvantagedBusiness">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/SpinningCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/SpinningCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/SportsIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/SportsIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/StainlessSteelProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/StainlessSteelProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/SteelProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/StampingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/StampingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/StateOfAddress -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/StateOfAddress">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/SteelProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/SteelProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/StreetAddress -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/StreetAddress">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TI -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TI">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TI-9000 -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TI-9000">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/TI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TextileProcessCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TextileProcessCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TextilesIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TextilesIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TitaniumProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TitaniumProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ToolMakingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ToolMakingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TransportationAndWarehousing -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TransportationAndWarehousing">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/TransportationIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/TransportationIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/UnitedStatesPostalCode -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/UnitedStatesPostalCode">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/PhysicalLocationIdentifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/UrethaneProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/UrethaneProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/Utilities -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/Utilities">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/UtilitiesIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/UtilitiesIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/VehicleIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/VehicleIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/VeteranOwned -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/VeteranOwned">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/VitualLocationIdentifier -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/VitualLocationIdentifier">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WaterAndSewerUtilitiesIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WaterAndSewerUtilitiesIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/UtilitiesIndustry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WeavingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WeavingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/TextileProcessCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WebAddress -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WebAddress">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/VitualLocationIdentifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WholesaleTrade -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WholesaleTrade">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WomenOwned -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WomenOwned">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WoodProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WoodProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/WoodWorkingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/WoodWorkingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ZincAlloyProcessingCapability -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ZincAlloyProcessingCapability">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/apparelIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/apparelIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/8(a) -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/8(a)">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/SmallDisadvantagedBusiness"/>
+    </owl:Class>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/Core/GroupOfPersons -->
+
+    <owl:Class rdf:about="https://spec.industrialontologies.org/ontology/core/Core/GroupOfPersons"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

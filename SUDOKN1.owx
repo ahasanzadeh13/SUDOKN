@@ -1,0 +1,1205 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://asu.edu/semantics/SUDOKN"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://asu.edu/semantics/SUDOKN"
+     versionIRI="http://asu.edu/semantics/SUDOKN1/">
+    <Prefix name="" IRI="http://www.semanticweb.org/ahasa/ontologies/2024/1/untitled-ontology-78/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Prefix name="AnnotationVocabulary" IRI="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"/>
+    <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
+    <Import>https://spec.industrialontologies.org/ontology/202302/supplychain/SupplyChain/</Import>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AS-9003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AS-9100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AS-9102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ASCompliant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ASME"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AccommodationAndFoodServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AdditivesProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AdministrativeAndSupportAsndWasteServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AerospaceIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AgricultureForestryFishingAndHunting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AgricultureIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AluminumProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ArtsEnterntainmentAndRecreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AssemblyCapibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/BABACompliant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/BeverageIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/BrandName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/BrassProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/BronzeProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CarbonProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CastingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CeramicProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ChemicalProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ChemicalsProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CityOfAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Classifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CoatingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CommunicationAndElectronicPowerUtilitiesIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CommunicationIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CompositeProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ComputerIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ConstructionIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CopperProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CountryOfAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/CrochetCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/DisabledVeteranOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/DrawingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/DyeingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/EducationIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/EducationalServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ElectricVehicleIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ElectronicProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ElectronicProductIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/EmailAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ExtrudingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FDA-GMP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FDA-PMA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FDACompliant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FabricatingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FiberProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FilingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FinanceAndInsurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FinishingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FoamProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FoodIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ForgingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FormingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/FurnitureIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/GWO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/GlassProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/GovernmentIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/GrindingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/HAACP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/HUBZone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/HealthCareAndSocialAssistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/HealthCareServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/HeatTreatingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/HoningCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-13485"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-14000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-14001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-17265"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-27001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-9000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISO-9001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ISTS-16949"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ITARCompliant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/IronProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/JoiningCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/KnittingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/KosherApproved"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MachinaryEquipmentIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MachiningCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MagnesiumAlloyProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ManMadeFiberProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ManagementOfCompaniesAndEnterprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Manufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MetalProductsIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MiningIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MinorityOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MoldMakingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MoldingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/NADCAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/NIST-800-171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/NISTCertificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/NativeAmericanOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/NaturalFiberProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/OrganizationName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/OrganizationYearOfEstablishment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PackingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PaperIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PlasticAndRubberIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PlasticProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PressingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PrintingAndInformationIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PrintingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ProcessCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PublicAdministration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/QS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/QS-9000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/QualityCertificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/QualityManagementCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/RealEstateRentalAndLeasing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/RecyclingIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/RetailIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/RetailTrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/RollingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/RubberProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/SheeringCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/SiliconeProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/SmallDisadvantagedBusiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/SpinningCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/SportsIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/StainlessSteelProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/StampingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/StateOfAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/SteelProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/StreetAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TI-9000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TextileProcessCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TextilesIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TitaniumProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ToolMakingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TransportationAndWarehousing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/TransportationIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/UnitedStatesPostalCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/UrethaneProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/Utilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/UtilitiesIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/VehicleIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/VeteranOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/VitualLocationIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WaterAndSewerUtilitiesIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WeavingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WebAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WholesaleTrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WomenOwned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WoodProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/WoodWorkingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ZincAlloyProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/apparelIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/8(a)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/GroupOfPersons"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:replacedBy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AS-9003"/>
+        <Class IRI="http://SUDOKN1.0/ASCompliant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AS-9100"/>
+        <Class IRI="http://SUDOKN1.0/ASCompliant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AS-9102"/>
+        <Class IRI="http://SUDOKN1.0/ASCompliant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ASCompliant"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ASME"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AccommodationAndFoodServices"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AdditivesProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Address"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/PhysicalLocationIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AdministrativeAndSupportAsndWasteServices"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AerospaceIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AgricultureForestryFishingAndHunting"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AgricultureIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AluminumProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ArtsEnterntainmentAndRecreation"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AssemblyCapibility"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BABACompliant"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BeverageIndustry"/>
+        <Class IRI="http://SUDOKN1.0/FoodIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BrandName"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BrassProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BronzeProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CarbonProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CastingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CeramicProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+        <Class IRI="http://SUDOKN1.0/QualityCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ChemicalProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ChemicalsProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CityOfAddress"/>
+        <Class IRI="http://SUDOKN1.0/Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Classifier"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CoatingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CommunicationAndElectronicPowerUtilitiesIndustry"/>
+        <Class IRI="http://SUDOKN1.0/UtilitiesIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CommunicationIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CompositeProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ComputerIndustry"/>
+        <Class IRI="http://SUDOKN1.0/ElectronicProductIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Construction"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ConstructionIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CopperProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CountryOfAddress"/>
+        <Class IRI="http://SUDOKN1.0/Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/CrochetCapability"/>
+        <Class IRI="http://SUDOKN1.0/TextileProcessCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/DisabledVeteranOwned"/>
+        <Class IRI="http://SUDOKN1.0/VeteranOwned"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/DrawingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/DyeingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/EducationIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/EducationalServices"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ElectricVehicleIndustry"/>
+        <Class IRI="http://SUDOKN1.0/VehicleIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ElectronicProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ElectronicProductIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/EmailAddress"/>
+        <Class IRI="http://SUDOKN1.0/VitualLocationIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ExtrudingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FDA-GMP"/>
+        <Class IRI="http://SUDOKN1.0/FDACompliant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FDA-PMA"/>
+        <Class IRI="http://SUDOKN1.0/FDACompliant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FDACompliant"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FabricatingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FiberProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FilingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FinanceAndInsurance"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FinishingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FoamProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FoodIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ForgingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FormingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/FurnitureIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/GWO"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/GlassProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/GovernmentIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/GrindingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/HAACP"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/HUBZone"/>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/HealthCareAndSocialAssistance"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/HealthCareServices"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/HeatTreatingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/HoningCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-13485"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-14000"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-14001"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-17265"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-27001"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-9000"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISO-9001"/>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISOCertificate"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISTS"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ISTS-16949"/>
+        <Class IRI="http://SUDOKN1.0/ISTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ITARCompliant"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Information"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/IronProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/JoiningCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/KnittingCapability"/>
+        <Class IRI="http://SUDOKN1.0/TextileProcessCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/KosherApproved"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MachinaryEquipmentIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MachiningCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MagnesiumAlloyProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ManMadeFiberProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/FiberProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ManagementOfCompaniesAndEnterprise"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Manufacturing"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ProcessCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ProcessCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MetalProductsIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Mining"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MiningIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MinorityOwned"/>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MoldMakingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MoldingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/NADCAP"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+        <Class IRI="http://SUDOKN1.0/Classifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/NIST-800-171"/>
+        <Class IRI="http://SUDOKN1.0/NISTCertificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/NISTCertificate"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/NativeAmericanOwned"/>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/NaturalFiberProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/FiberProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/OrganizationName"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/OrganizationYearOfEstablishment"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+        <Class IRI="http://SUDOKN1.0/Classifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PackingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PaperIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PlasticAndRubberIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PlasticProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PressingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PrintingAndInformationIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PrintingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ProcessCapability"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PublicAdministration"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/QS"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/QS-9000"/>
+        <Class IRI="http://SUDOKN1.0/QS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/QualityCertificate"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/QualityManagementCapability"/>
+        <Class IRI="http://SUDOKN1.0/ProcessCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/RealEstateRentalAndLeasing"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/RecyclingIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Restaurants"/>
+        <Class IRI="http://SUDOKN1.0/FoodIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/RetailIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/RetailTrade"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/RollingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/RubberProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/SheeringCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/SiliconeProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/SmallDisadvantagedBusiness"/>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/SpinningCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/SportsIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/StainlessSteelProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/SteelProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/StampingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/StateOfAddress"/>
+        <Class IRI="http://SUDOKN1.0/Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/SteelProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/StreetAddress"/>
+        <Class IRI="http://SUDOKN1.0/Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TI"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TI-9000"/>
+        <Class IRI="http://SUDOKN1.0/TI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TextileProcessCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TextilesIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TitaniumProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ToolMakingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TransportationAndWarehousing"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/TransportationIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/UnitedStatesPostalCode"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/PhysicalLocationIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/UrethaneProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/Utilities"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/UtilitiesIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/VehicleIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/VeteranOwned"/>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/VitualLocationIdentifier"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WaterAndSewerUtilitiesIndustry"/>
+        <Class IRI="http://SUDOKN1.0/UtilitiesIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WeavingCapability"/>
+        <Class IRI="http://SUDOKN1.0/TextileProcessCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WebAddress"/>
+        <Class IRI="http://SUDOKN1.0/VitualLocationIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WholesaleTrade"/>
+        <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WomenOwned"/>
+        <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WoodProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MaterialProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/WoodWorkingCapability"/>
+        <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ZincAlloyProcessingCapability"/>
+        <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/apparelIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/8(a)"/>
+        <Class IRI="http://SUDOKN1.0/SmallDisadvantagedBusiness"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
