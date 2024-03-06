@@ -62,10 +62,16 @@
         <Class IRI="http://SUDOKN1.0/AluminumProcessingCapability"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://SUDOKN1.0/ApparelIndustry"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://SUDOKN1.0/ArtsEnterntainmentAndRecreation"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/AssemblyCapibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/AutomotiveIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/BABACompliant"/>
@@ -80,7 +86,13 @@
         <Class IRI="http://SUDOKN1.0/BrassProcessingCapability"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://SUDOKN1.0/BritishRetailConsortium"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://SUDOKN1.0/BronzeProcessingCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/BusinessEquipmentIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/CarbonProcessingCapability"/>
@@ -113,7 +125,7 @@
         <Class IRI="http://SUDOKN1.0/CommunicationAndElectronicPowerUtilitiesIndustry"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://SUDOKN1.0/CommunicationIndustry"/>
+        <Class IRI="http://SUDOKN1.0/CommunicationsIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/CompositeProcessingCapability"/>
@@ -126,6 +138,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/ConstructionIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ConsumerGoodsIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/CopperProcessingCapability"/>
@@ -152,7 +167,7 @@
         <Class IRI="http://SUDOKN1.0/EducationalServices"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://SUDOKN1.0/ElectricVehicleIndustry"/>
+        <Class IRI="http://SUDOKN1.0/ElectricAutomotiveIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/ElectronicProcessingCapability"/>
@@ -284,7 +299,7 @@
         <Class IRI="http://SUDOKN1.0/KosherApproved"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://SUDOKN1.0/MachinaryEquipmentIndustry"/>
+        <Class IRI="http://SUDOKN1.0/MachinaryAndEquipmentIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/MachiningCapability"/>
@@ -312,6 +327,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/MetalProductsIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/MilitaryIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/Mining"/>
@@ -347,6 +365,9 @@
         <Class IRI="http://SUDOKN1.0/NaturalFiberProcessingCapability"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://SUDOKN1.0/OffshoreWindIndustry"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://SUDOKN1.0/OrganizationName"/>
     </Declaration>
     <Declaration>
@@ -360,6 +381,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/PaperIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/PaperboardProductsIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/PlasticAndRubberIndustry"/>
@@ -381,6 +405,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://SUDOKN1.0/ProfessionalServices"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/PublicAdministration"/>
@@ -431,7 +458,7 @@
         <Class IRI="http://SUDOKN1.0/SpinningCapability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://SUDOKN1.0/SportsIndustry"/>
+        <Class IRI="http://SUDOKN1.0/SportsAndLeisureIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/StainlessSteelProcessingCapability"/>
@@ -485,9 +512,6 @@
         <Class IRI="http://SUDOKN1.0/UtilitiesIndustry"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://SUDOKN1.0/VehicleIndustry"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://SUDOKN1.0/VeteranOwned"/>
     </Declaration>
     <Declaration>
@@ -516,9 +540,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/ZincAlloyProcessingCapability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://SUDOKN1.0/apparelIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://SUDOKN1.0/8(a)"/>
@@ -582,12 +603,20 @@
         <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ApparelIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://SUDOKN1.0/ArtsEnterntainmentAndRecreation"/>
         <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/AssemblyCapibility"/>
         <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/AutomotiveIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/BABACompliant"/>
@@ -606,8 +635,16 @@
         <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BritishRetailConsortium"/>
+        <Class IRI="http://SUDOKN1.0/Certificate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://SUDOKN1.0/BronzeProcessingCapability"/>
         <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/BusinessEquipmentIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/CarbonProcessingCapability"/>
@@ -650,7 +687,7 @@
         <Class IRI="http://SUDOKN1.0/UtilitiesIndustry"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://SUDOKN1.0/CommunicationIndustry"/>
+        <Class IRI="http://SUDOKN1.0/CommunicationsIndustry"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
@@ -667,6 +704,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/ConstructionIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ConsumerGoodsIndustry"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
@@ -702,8 +743,8 @@
         <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://SUDOKN1.0/ElectricVehicleIndustry"/>
-        <Class IRI="http://SUDOKN1.0/VehicleIndustry"/>
+        <Class IRI="http://SUDOKN1.0/ElectricAutomotiveIndustry"/>
+        <Class IRI="http://SUDOKN1.0/AutomotiveIndustry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/ElectronicProcessingCapability"/>
@@ -878,7 +919,7 @@
         <Class IRI="http://SUDOKN1.0/Certificate"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://SUDOKN1.0/MachinaryEquipmentIndustry"/>
+        <Class IRI="http://SUDOKN1.0/MachinaryAndEquipmentIndustry"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
@@ -915,6 +956,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/MetalProductsIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/MilitaryIndustry"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
@@ -962,6 +1007,10 @@
         <Class IRI="http://SUDOKN1.0/FiberProcessingCapability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/OffshoreWindIndustry"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://SUDOKN1.0/OrganizationName"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/core/Core/Identifier"/>
     </SubClassOf>
@@ -980,6 +1029,10 @@
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/PaperIndustry"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/PaperboardProductsIndustry"/>
+        <Class IRI="http://SUDOKN1.0/PaperIndustry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/PlasticAndRubberIndustry"/>
@@ -1008,6 +1061,10 @@
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices"/>
         <Class IRI="http://SUDOKN1.0/NAICSClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://SUDOKN1.0/ProfessionalServices"/>
+        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/PublicAdministration"/>
@@ -1074,7 +1131,7 @@
         <Class IRI="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://SUDOKN1.0/SportsIndustry"/>
+        <Class IRI="http://SUDOKN1.0/SportsAndLeisureIndustry"/>
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
@@ -1146,10 +1203,6 @@
         <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://SUDOKN1.0/VehicleIndustry"/>
-        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://SUDOKN1.0/VeteranOwned"/>
         <Class IRI="http://SUDOKN1.0/OwnershipStatusClassifier"/>
     </SubClassOf>
@@ -1188,10 +1241,6 @@
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/ZincAlloyProcessingCapability"/>
         <Class IRI="http://SUDOKN1.0/MetalProcessingCapability"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://SUDOKN1.0/apparelIndustry"/>
-        <Class IRI="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://SUDOKN1.0/8(a)"/>

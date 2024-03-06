@@ -153,6 +153,14 @@
     
 
 
+    <!-- http://SUDOKN1.0/ApparelIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ApparelIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
     <!-- http://SUDOKN1.0/ArtsEnterntainmentAndRecreation -->
 
     <owl:Class rdf:about="http://SUDOKN1.0/ArtsEnterntainmentAndRecreation">
@@ -165,6 +173,14 @@
 
     <owl:Class rdf:about="http://SUDOKN1.0/AssemblyCapibility">
         <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/ManufacturingProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/AutomotiveIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/AutomotiveIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
 
@@ -201,10 +217,26 @@
     
 
 
+    <!-- http://SUDOKN1.0/BritishRetailConsortium -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BritishRetailConsortium">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/Certificate"/>
+    </owl:Class>
+    
+
+
     <!-- http://SUDOKN1.0/BronzeProcessingCapability -->
 
     <owl:Class rdf:about="http://SUDOKN1.0/BronzeProcessingCapability">
         <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/BusinessEquipmentIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/BusinessEquipmentIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
 
@@ -289,9 +321,9 @@
     
 
 
-    <!-- http://SUDOKN1.0/CommunicationIndustry -->
+    <!-- http://SUDOKN1.0/CommunicationsIndustry -->
 
-    <owl:Class rdf:about="http://SUDOKN1.0/CommunicationIndustry">
+    <owl:Class rdf:about="http://SUDOKN1.0/CommunicationsIndustry">
         <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
@@ -324,6 +356,14 @@
     <!-- http://SUDOKN1.0/ConstructionIndustry -->
 
     <owl:Class rdf:about="http://SUDOKN1.0/ConstructionIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ConsumerGoodsIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ConsumerGoodsIndustry">
         <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
@@ -393,10 +433,10 @@
     
 
 
-    <!-- http://SUDOKN1.0/ElectricVehicleIndustry -->
+    <!-- http://SUDOKN1.0/ElectricAutomotiveIndustry -->
 
-    <owl:Class rdf:about="http://SUDOKN1.0/ElectricVehicleIndustry">
-        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/VehicleIndustry"/>
+    <owl:Class rdf:about="http://SUDOKN1.0/ElectricAutomotiveIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/AutomotiveIndustry"/>
     </owl:Class>
     
 
@@ -745,9 +785,9 @@
     
 
 
-    <!-- http://SUDOKN1.0/MachinaryEquipmentIndustry -->
+    <!-- http://SUDOKN1.0/MachinaryAndEquipmentIndustry -->
 
-    <owl:Class rdf:about="http://SUDOKN1.0/MachinaryEquipmentIndustry">
+    <owl:Class rdf:about="http://SUDOKN1.0/MachinaryAndEquipmentIndustry">
         <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
@@ -820,6 +860,14 @@
     <!-- http://SUDOKN1.0/MetalProductsIndustry -->
 
     <owl:Class rdf:about="http://SUDOKN1.0/MetalProductsIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/MilitaryIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/MilitaryIndustry">
         <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
@@ -913,6 +961,14 @@
     
 
 
+    <!-- http://SUDOKN1.0/OffshoreWindIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/OffshoreWindIndustry">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
     <!-- http://SUDOKN1.0/OrganizationName -->
 
     <owl:Class rdf:about="http://SUDOKN1.0/OrganizationName">
@@ -949,6 +1005,14 @@
 
     <owl:Class rdf:about="http://SUDOKN1.0/PaperIndustry">
         <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/PaperboardProductsIndustry -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/PaperboardProductsIndustry">
+        <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/PaperIndustry"/>
     </owl:Class>
     
 
@@ -1005,6 +1069,14 @@
 
     <owl:Class rdf:about="http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices">
         <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/NAICSClassifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://SUDOKN1.0/ProfessionalServices -->
+
+    <owl:Class rdf:about="http://SUDOKN1.0/ProfessionalServices">
+        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
 
@@ -1137,9 +1209,9 @@
     
 
 
-    <!-- http://SUDOKN1.0/SportsIndustry -->
+    <!-- http://SUDOKN1.0/SportsAndLeisureIndustry -->
 
-    <owl:Class rdf:about="http://SUDOKN1.0/SportsIndustry">
+    <owl:Class rdf:about="http://SUDOKN1.0/SportsAndLeisureIndustry">
         <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
@@ -1281,14 +1353,6 @@
     
 
 
-    <!-- http://SUDOKN1.0/VehicleIndustry -->
-
-    <owl:Class rdf:about="http://SUDOKN1.0/VehicleIndustry">
-        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
-    </owl:Class>
-    
-
-
     <!-- http://SUDOKN1.0/VeteranOwned -->
 
     <owl:Class rdf:about="http://SUDOKN1.0/VeteranOwned">
@@ -1365,14 +1429,6 @@
 
     <owl:Class rdf:about="http://SUDOKN1.0/ZincAlloyProcessingCapability">
         <rdfs:subClassOf rdf:resource="http://SUDOKN1.0/MetalProcessingCapability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://SUDOKN1.0/apparelIndustry -->
-
-    <owl:Class rdf:about="http://SUDOKN1.0/apparelIndustry">
-        <rdfs:subClassOf rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry"/>
     </owl:Class>
     
 

@@ -95,6 +95,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                                 rdfs:subClassOf <http://SUDOKN1.0/MetalProcessingCapability> .
 
 
+###  http://SUDOKN1.0/ApparelIndustry
+<http://SUDOKN1.0/ApparelIndustry> rdf:type owl:Class ;
+                                   rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+
+
 ###  http://SUDOKN1.0/ArtsEnterntainmentAndRecreation
 <http://SUDOKN1.0/ArtsEnterntainmentAndRecreation> rdf:type owl:Class ;
                                                    rdfs:subClassOf <http://SUDOKN1.0/NAICSClassifier> .
@@ -103,6 +108,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
 ###  http://SUDOKN1.0/AssemblyCapibility
 <http://SUDOKN1.0/AssemblyCapibility> rdf:type owl:Class ;
                                       rdfs:subClassOf <http://SUDOKN1.0/ManufacturingProcessingCapability> .
+
+
+###  http://SUDOKN1.0/AutomotiveIndustry
+<http://SUDOKN1.0/AutomotiveIndustry> rdf:type owl:Class ;
+                                      rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/BABACompliant
@@ -125,9 +135,19 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                              rdfs:subClassOf <http://SUDOKN1.0/MetalProcessingCapability> .
 
 
+###  http://SUDOKN1.0/BritishRetailConsortium
+<http://SUDOKN1.0/BritishRetailConsortium> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://SUDOKN1.0/Certificate> .
+
+
 ###  http://SUDOKN1.0/BronzeProcessingCapability
 <http://SUDOKN1.0/BronzeProcessingCapability> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://SUDOKN1.0/MetalProcessingCapability> .
+
+
+###  http://SUDOKN1.0/BusinessEquipmentIndustry
+<http://SUDOKN1.0/BusinessEquipmentIndustry> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/CarbonProcessingCapability
@@ -180,9 +200,9 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                                                     rdfs:subClassOf <http://SUDOKN1.0/UtilitiesIndustry> .
 
 
-###  http://SUDOKN1.0/CommunicationIndustry
-<http://SUDOKN1.0/CommunicationIndustry> rdf:type owl:Class ;
-                                         rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+###  http://SUDOKN1.0/CommunicationsIndustry
+<http://SUDOKN1.0/CommunicationsIndustry> rdf:type owl:Class ;
+                                          rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/CompositeProcessingCapability
@@ -203,6 +223,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
 ###  http://SUDOKN1.0/ConstructionIndustry
 <http://SUDOKN1.0/ConstructionIndustry> rdf:type owl:Class ;
                                         rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+
+
+###  http://SUDOKN1.0/ConsumerGoodsIndustry
+<http://SUDOKN1.0/ConsumerGoodsIndustry> rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/CopperProcessingCapability
@@ -245,9 +270,9 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                        rdfs:subClassOf <http://SUDOKN1.0/NAICSClassifier> .
 
 
-###  http://SUDOKN1.0/ElectricVehicleIndustry
-<http://SUDOKN1.0/ElectricVehicleIndustry> rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://SUDOKN1.0/VehicleIndustry> .
+###  http://SUDOKN1.0/ElectricAutomotiveIndustry
+<http://SUDOKN1.0/ElectricAutomotiveIndustry> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://SUDOKN1.0/AutomotiveIndustry> .
 
 
 ###  http://SUDOKN1.0/ElectronicProcessingCapability
@@ -465,9 +490,9 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                   rdfs:subClassOf <http://SUDOKN1.0/Certificate> .
 
 
-###  http://SUDOKN1.0/MachinaryEquipmentIndustry
-<http://SUDOKN1.0/MachinaryEquipmentIndustry> rdf:type owl:Class ;
-                                              rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+###  http://SUDOKN1.0/MachinaryAndEquipmentIndustry
+<http://SUDOKN1.0/MachinaryAndEquipmentIndustry> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/MachiningCapability
@@ -513,6 +538,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
 ###  http://SUDOKN1.0/MetalProductsIndustry
 <http://SUDOKN1.0/MetalProductsIndustry> rdf:type owl:Class ;
                                          rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+
+
+###  http://SUDOKN1.0/MilitaryIndustry
+<http://SUDOKN1.0/MilitaryIndustry> rdf:type owl:Class ;
+                                    rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/Mining
@@ -570,6 +600,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                                     rdfs:subClassOf <http://SUDOKN1.0/FiberProcessingCapability> .
 
 
+###  http://SUDOKN1.0/OffshoreWindIndustry
+<http://SUDOKN1.0/OffshoreWindIndustry> rdf:type owl:Class ;
+                                        rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+
+
 ###  http://SUDOKN1.0/OrganizationName
 <http://SUDOKN1.0/OrganizationName> rdf:type owl:Class ;
                                     rdfs:subClassOf <https://spec.industrialontologies.org/ontology/core/Core/Identifier> .
@@ -593,6 +628,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
 ###  http://SUDOKN1.0/PaperIndustry
 <http://SUDOKN1.0/PaperIndustry> rdf:type owl:Class ;
                                  rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+
+
+###  http://SUDOKN1.0/PaperboardProductsIndustry
+<http://SUDOKN1.0/PaperboardProductsIndustry> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://SUDOKN1.0/PaperIndustry> .
 
 
 ###  http://SUDOKN1.0/PlasticAndRubberIndustry
@@ -628,6 +668,11 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
 ###  http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices
 <http://SUDOKN1.0/ProfessionalScientificAndTechnicalServices> rdf:type owl:Class ;
                                                               rdfs:subClassOf <http://SUDOKN1.0/NAICSClassifier> .
+
+
+###  http://SUDOKN1.0/ProfessionalServices
+<http://SUDOKN1.0/ProfessionalServices> rdf:type owl:Class ;
+                                        rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/PublicAdministration
@@ -710,9 +755,9 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                       rdfs:subClassOf <http://SUDOKN1.0/ManufacturingProcessingCapability> .
 
 
-###  http://SUDOKN1.0/SportsIndustry
-<http://SUDOKN1.0/SportsIndustry> rdf:type owl:Class ;
-                                  rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
+###  http://SUDOKN1.0/SportsAndLeisureIndustry
+<http://SUDOKN1.0/SportsAndLeisureIndustry> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/StainlessSteelProcessingCapability
@@ -800,11 +845,6 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
                                      rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
-###  http://SUDOKN1.0/VehicleIndustry
-<http://SUDOKN1.0/VehicleIndustry> rdf:type owl:Class ;
-                                   rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
-
-
 ###  http://SUDOKN1.0/VeteranOwned
 <http://SUDOKN1.0/VeteranOwned> rdf:type owl:Class ;
                                 rdfs:subClassOf <http://SUDOKN1.0/OwnershipStatusClassifier> .
@@ -853,11 +893,6 @@ AnnotationVocabulary:replacedBy rdf:type owl:AnnotationProperty .
 ###  http://SUDOKN1.0/ZincAlloyProcessingCapability
 <http://SUDOKN1.0/ZincAlloyProcessingCapability> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://SUDOKN1.0/MetalProcessingCapability> .
-
-
-###  http://SUDOKN1.0/apparelIndustry
-<http://SUDOKN1.0/apparelIndustry> rdf:type owl:Class ;
-                                   rdfs:subClassOf <https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry> .
 
 
 ###  http://SUDOKN1.0/8(a)
